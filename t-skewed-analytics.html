@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Reverse Security</title>
+</head>
+<body>
+
+<!-- Header -->
+<nav class="nav">
+    <a class="nav__logo-container" href="index.html">
+        <img class="nav__logo" src="media/svg/logo-full.svg" />
+    </a>
+
+    <input class="navigation__checkbox" id="nav-toggle" type="checkbox" onclick="toggleScroll()">
+
+    <label class="navigation__menu" for="nav-toggle">
+        <span class="navigation__icon"></span>
+    </label>
+
+    <div class="navigation__background" id="nav"></div>
+
+    <ul class="navigation__nav">
+        <li class="navigation__item"><a class="navigation__link navigation__link--selected" href="threats.html">Threats</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="solutions.html">Solutions</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="resources.html">Resources</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="about.html">About</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="contact.html">Contact</a></li>
+    </ul>
+    
+    <div class="navigation__trial">
+        <a class="btn btn--primary" href="trial.html">Free Trial</a>
+    </div>
+
+    <div class="navigation__login">
+        <a class="btn btn--login" href="login.html">Login <svg class="icon-login" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"/></g><g><path d="M11,7L9.6,8.4l2.6,2.6H2v2h10.2l-2.6,2.6L11,17l5-5L11,7z M20,19h-8v2h8c1.1,0,2-0.9,2-2V5c0-1.1-0.9-2-2-2h-8v2h8V19z"/></g></svg></a>
+    </div>
+</nav>
+
+<!-- Info -->
+<section class="section section__one">
+    <span class="section__gradient section__gradient--top"></span>
+
+    <div class="container pt-18">
+        <div class="text-box">
+            <h5 class="heading--5">Threat</h5>
+            <h2 class="heading heading--2 mb-2">Skewed Analytics</h2>
+            <p class="paragraph-text mb-2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+
+            <a class="btn btn--primary" href="contact.html">Help me!</a>
+        </div>
+
+        <div class="video-container">
+            <span class="video-gradient video-gradient--shadowblue"></span>
+            <img class="laptop" src="media/img/macbook-black.png" alt="" />
+            <iframe class="video" src="https://www.youtube.com/embed/jT-jmq8KBw0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- Info -->
+<section class="section section__two">
+    <div class="container">
+        <div class="card-wide">
+            <h2 class="heading heading--2 mb-2">How do cyber criminals benefit from this?</h2>
+            <p class="paragraph-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+        </div>
+    </div>
+</section>
+
+<!-- Info -->
+<section class="section section__three">
+    <div class="container row-gap-8 column-reverse">
+        <div class="image-box">
+            <img class="image-box__image" src="media/img/info-image-1.png" alt="" />
+        </div>
+
+        <div class="text-box">
+            <h2 class="heading heading--2 mb-2">How does this affect your website?</h2>
+            <p class="paragraph-text mb-2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Info -->
+<section class="section section__four">
+    <div class="container row-gap-8">
+        <div class="text-box">
+            <h2 class="heading heading--2 mb-2">What we do to stop Skewed Analytics</h2>
+            <p class="paragraph-text mb-2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
+        </div>
+
+        <div class="image-box">
+            <img class="image-box__image" src="media/img/info-image-2.png" alt="" />
+        </div>
+    </div>
+</section>
+
+<!-- Info -->
+<section class="section section__five">
+    <div class="container">
+        <div class="card-wide">
+            <h2 class="heading heading--2 mb-2">Other security measures and their vulnerabilities</h2>
+            <p class="paragraph-text mb-2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
+
+            <a class="btn btn--primary" href="#">Contact us</a>
+        </div>
+    </div>
+</section>
+
+<!-- Trial -->
+<section class="section section__trial">
+    <div class="container container--trial">
+        <h2 class="heading heading--2 heading--inversed mb-2">Ready for a Free Trial?</h2>
+
+        <a class="btn btn--primary btn--inversed" href="trial.html">Get Started</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <span class="footer__gradient"></span>
+    
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__list-container">
+                <div class="footer__list">
+                    <h4 class="footer__title">Threats</h4>
+                    <a class="footer__link" href="t-account-takeover.html">Account Takeover</a>
+                    <a class="footer__link" href="t-carding.html">Carding</a>
+                    <a class="footer__link" href="t-denial-of-inventory.html">Denial of Inventory</a>
+                    <a class="footer__link" href="t-bot-accounts.html">Bot Accounts</a>
+                    <a class="footer__link" href="t-scraping.html">Scraping</a>
+                    <a class="footer__link" href="t-gift-card-cracking.html">Gift Card Cracking</a>
+                    <a class="footer__link" href="t-skewed-analytics.html">Skewed Analytics</a>
+                    <a class="footer__link" href="t-credential-stuffing.html">Credential Stuffing</a>
+                    <a class="footer__link" href="t-identity-theft.html">Identity Theft</a>
+                </div>
+
+                <div class="footer__list">
+                    <h4 class="footer__title">Solutions</h4>
+                    <a class="footer__link" href="s-bot-shield.html">Bot Shield</a>
+                    <a class="footer__link" href="s-reserve-digiprint.html">Reserve Digiprint</a>
+                    <a class="footer__link" href="s-code-shield.html">Code Shield</a>
+                    <a class="footer__link" href="s-credential-screening.html">Credential Screening</a>
+                </div>
+
+                <div class="footer__list">
+                    <h4 class="footer__title">Resources</h4>
+                    <a class="footer__link" href="r-account-takeovers.html">Account Takeovers</a>
+                    <a class="footer__link" href="r-carding.html">Carding</a>
+                    <a class="footer__link" href="r-automated-checkouts.html">Automated Checkouts</a>
+                    <a class="footer__link" href="r-new-account-fraud.html">New Account Fraud</a>
+                    <a class="footer__link" href="r-web-scraping.html">Web Scraping</a>
+                    <a class="footer__link" href="r-giftcards.html">Giftcards</a>
+                    <a class="footer__link" href="r-skewed-analytics.html">Skewed Analytics</a>
+                    <a class="footer__link" href="r-credential-stuffing.html">Credential Stuffing</a>
+                    <a class="footer__link" href="r-identity-theft.html">Identity Theft</a>
+                </div>
+
+                <div class="footer__list">
+                    <h4 class="footer__title">About</h4>
+                    <a class="footer__link" href="careers.html">Careers</a>
+                    <a class="footer__link" href="about.html">About Us</a>
+                    <a class="footer__link" href="partners.html">Partners</a>
+                    <a class="footer__link" href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer__social">
+                <img class="footer__logo" src="media/svg/logo-full.svg" />
+
+                <div class="footer__social-buttons">
+                    <a class="footer__social-button" href="#"><svg class="footer__social-button-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M288,176v-64c0-17.664,14.336-32,32-32h32V0h-64c-53.024,0-96,42.976-96,96v80h-64v80h64v256h96V256h64l32-80H288z"/></svg></a>
+                    <a class="footer__social-button" href="#"><svg class="footer__social-button-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016 c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992 c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056 c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152 c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792 c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44 C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568 C480.224,136.96,497.728,118.496,512,97.248z"/></svg></a>
+                    <a class="footer__social-button" href="#"><svg class="footer__social-button-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><rect y="160" width="114.496" height="352"/><path d="M426.368,164.128c-1.216-0.384-2.368-0.8-3.648-1.152c-1.536-0.352-3.072-0.64-4.64-0.896 c-6.08-1.216-12.736-2.08-20.544-2.08c-66.752,0-109.088,48.544-123.04,67.296V160H160v352h114.496V320 c0,0,86.528-120.512,123.04-32c0,79.008,0,224,0,224H512V274.464C512,221.28,475.552,176.96,426.368,164.128z"/><circle cx="56" cy="56" r="56"/></svg></a>
+                    <a class="footer__social-button" href="#"><svg class="footer__social-button-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M490.24,113.92c-13.888-24.704-28.96-29.248-59.648-30.976C399.936,80.864,322.848,80,256.064,80 c-66.912,0-144.032,0.864-174.656,2.912c-30.624,1.76-45.728,6.272-59.744,31.008C7.36,138.592,0,181.088,0,255.904 C0,255.968,0,256,0,256c0,0.064,0,0.096,0,0.096v0.064c0,74.496,7.36,117.312,21.664,141.728 c14.016,24.704,29.088,29.184,59.712,31.264C112.032,430.944,189.152,432,256.064,432c66.784,0,143.872-1.056,174.56-2.816 c30.688-2.08,45.76-6.56,59.648-31.264C504.704,373.504,512,330.688,512,256.192c0,0,0-0.096,0-0.16c0,0,0-0.064,0-0.096 C512,181.088,504.704,138.592,490.24,113.92z M192,352V160l160,96L192,352z"/></svg>                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__extra">
+            <a class="privacy-policy" href="#">Privacy Policy</a>
+            <span class="footer__separator">|</span>
+            <a class="terms-and-conditions" href="#">Terms and Conditions</a>
+
+            <span class="copyright">Copyright © 2020 Botwall. All rights reserved.</span>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript">
+// Header/nav fix
+    // $(document).ready(function() {
+    //     $('#nav-toggle').on('click', function() {
+    //         if ($((this)).is(':checked')) {
+    //             $('.nav').css("height", "100vh")
+    //         } else {
+    //             setTimeout(function() {
+    //                 $('.nav').css("height", "0")
+    //             }, 1000);
+    //         }
+    //     });
+    // })
+
+// Navigation menu toggle
+	function toggleScroll() {
+		if ($('#nav-toggle').prop('checked') === true) {
+            $('body').css('overflowY', 'hidden');
+            $('.nav').css("height", "100vh")
+		} else {
+            $('body').css('overflowY', 'auto');
+            setTimeout(function() {
+                $('.nav').css("height", "0")
+            }, 250);
+		}
+	}
+
+	$('#nav-toggle').on('click', toggleScroll);
+</script>
+
+</body>
+</html>
